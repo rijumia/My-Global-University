@@ -20,6 +20,7 @@ html, body {
     font-size: 14px;
     color: #242424;
     font-weight: 400;
+    /* overflow: hidden; */
 }
 .main_container {
     width: 1100px;
@@ -56,6 +57,11 @@ marquee.notification-text {
     align-items: center;
 }
 
+.banner_section{
+    overflow: hidden;
+}
+
+
 .main_header .logo img {
     height: 50px;
 }
@@ -71,3 +77,34 @@ marquee.notification-text {
     text-decoration: none;
 }
 
+
+.notice_section .note-event .heading-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+.notice_section .heading-border {
+    height: 2px;
+    background-color: #ffa38e;
+    width: 60px;
+}
+.notice_section .notice-board ul li {
+    font-size: 14px;
+}
+.notice_section .event-date h4 {
+    font-size: 28px;
+    font-weight: 400;
+}
+.notice_section .event-content p, .event-content h5 {
+    margin: 0;
+}
+
+
+.campus_section .bg-light {
+    background-color: #f8f9fa !important;
+}
+.campus_section .text-success {
+    color: #68bb59 !important;
+}
+.campus_section .bg-warning {
+    background-color: #ffc600 !important;
+}
